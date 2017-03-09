@@ -64,9 +64,7 @@ Below are the hyper parameters used for training the model
 
 ### Results
 
-* The video of the results can be found here 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/68uVkE1-1-Q" frameborder="0" allowfullscreen></iframe>
+* The video of the results can be found [[!here](https://www.youtube.com/embed/68uVkE1-1-Q/0.jpg)](https://www.youtube.com/watch?v=68uVkE1-1-Q)
 
  The results attained was tested on a different dataset that I collected which was not used in training or validation.
 
