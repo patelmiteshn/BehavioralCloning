@@ -25,18 +25,18 @@ The aim of this project was to train a deep learning model that can teach a car 
 * Data engineering was by far the most important part of this assignment. 
 * I started with using the cropped images as advised in the class but that didn't get me to a working model
 * I utilized udacity dataset which was displined driving in the center of the lane. This dataset was far away from real word scanerio whereby there might be times when car crosses the yellow shoulder line. Example of center lane driving shown below:
-[!center_lane](images/center_driving.png)
+![center_lane](images/center_driving.png)
  
 * I introduced flipped images which immitated right turns on the circuit. This was required as most of the data collected represented left turns. This enabled us to get more balanced dataset. Example image flipping shown below:
 
-[!flip image](images/image_flip.png)
+![flip image](images/image_flip.png)
 
 * I also added more samples of left and right turns so that I can get a balanced dataset which immitates left, right and straight driving. 
 
 * I utilized recovery data recorded by pkern which moves the car from left to center of lane and right to center of lane. Example shown below:
 
-[!right_to_center](images/right_to_center.png)
-[!left_to_center](images/left_to_center.png)
+![right_to_center](images/right_to_center.png)
+![left_to_center](images/left_to_center.png)
 
 
 
@@ -77,7 +77,7 @@ Below are the hyper parameters used for training the model
 
 ### Results
 
-* The video of the results can be found [[!here](https://www.youtube.com/embed/68uVkE1-1-Q/0.jpg)](https://www.youtube.com/watch?v=68uVkE1-1-Q)
+* The video of the results can be found ![[here](https://www.youtube.com/embed/68uVkE1-1-Q/0.jpg)](https://www.youtube.com/watch?v=68uVkE1-1-Q)
 
  The results attained was tested on a different dataset that I collected which was not used in training or validation.
 
