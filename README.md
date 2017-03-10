@@ -23,9 +23,22 @@ The aim of this project was to train a deep learning model that can teach a car 
 #### Preprocessing data 
 
 * Data engineering was by far the most important part of this assignment. 
-* I started with using the cropped images as advised in the class but that didn't get me to a working model. 
-* I introduced flipped images which immitated right runs on the circut 
+* I started with using the cropped images as advised in the class but that didn't get me to a working model
+* I utilized udacity dataset which was displined driving in the center of the lane. This dataset was far away from real word scanerio whereby there might be times when car crosses the yellow shoulder line. Example of center lane driving shown below:
+[!center_lane](images/center_driving.png)
+ 
+* I introduced flipped images which immitated right turns on the circuit. This was required as most of the data collected represented left turns. This enabled us to get more balanced dataset. Example image flipping shown below:
+
+[!flip image](images/image_flip.png)
+
 * I also added more samples of left and right turns so that I can get a balanced dataset which immitates left, right and straight driving. 
+
+* I utilized recovery data recorded by pkern which moves the car from left to center of lane and right to center of lane. Example shown below:
+
+[!right_to_center](images/right_to_center.png)
+[!left_to_center](images/left_to_center.png)
+
+
 
 Thanks to blog post written by Vivek Yadav, Denise James, https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html, it provided sufficient guidance to move further whenever I was stuck with a problem
 
