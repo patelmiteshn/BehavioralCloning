@@ -12,9 +12,10 @@ The aim of this project was to train a deep learning model that can teach a car 
 * drive.py: A modified python scipt that is used to drive in udacity simulator using the trained model and a given dataset
 * model_experiments.ipynb: Overview of various experiemnts tried to get a working pipeline
 * To run in autonomous mode use the below command:
-  ```python
-    python drive.py model.json
-  ```
+
+```
+python drive.py model.json
+```
 
 ### DataSet
 
