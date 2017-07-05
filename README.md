@@ -1,7 +1,6 @@
 # Project 3: Behavioral Cloning
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-
----
 The aim of this project was to train a deep learning model that can teach a car of how to drive around a track in a udacity developed simulator. The data used to train this model is generated using the udacity simulator.
 
 ### Files
